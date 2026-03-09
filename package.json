@@ -1,0 +1,9 @@
+{
+  "name": "3dp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve -s frontend/build",
+    "build": "echo 'No build required - static files already built'"
+  }
+}
