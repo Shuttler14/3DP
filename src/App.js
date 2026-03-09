@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Shop from './pages/Shop';
 import CartDrawer from './components/CartDrawer';
-import Navbar from './pages/Shop';
 
 const Home = () => (
   <div className="min-h-screen bg-gray-50">
@@ -56,8 +55,8 @@ const App = () => {
                 <div className="flex items-center gap-6">
                   <a href="/" className="hover:text-blue-400 transition">Home</a>
                   <a href="/shop" className="hover:text-blue-400 transition">Shop</a>
-                  <a href="#" className="hover:text-blue-400 transition">Services</a>
-                  <a href="#" className="hover:text-blue-400 transition">Contact</a>
+                  <a href="/services" className="hover:text-blue-400 transition">Services</a>
+                  <a href="/contact" className="hover:text-blue-400 transition">Contact</a>
                 </div>
               </div>
             </div>
